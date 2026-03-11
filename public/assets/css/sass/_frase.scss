@@ -1,0 +1,21 @@
+.frase
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-frase
+{
+    margin: 0 auto;
+    max-width: 63rem; // o mx que ele chega é em 63% da tela
+}
+.h1-frase
+{
+    font-family: $Fonte_cursiva;
+    text-align: center;
+}
+.h3-frase
+{
+    font-family: $Fonte_destaque;
+    text-align: center;
+    color: $Preto_Premium;
+}

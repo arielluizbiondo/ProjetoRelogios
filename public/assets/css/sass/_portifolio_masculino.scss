@@ -1,0 +1,58 @@
+.masculino
+{
+    margin-top: 100px;
+}
+.container-masculino
+{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-masculino
+{
+    max-width: 42rem;
+}
+.container-info-masculino
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.container-fotos-relogiosMasculino
+{
+    display: flex;
+}
+.img-relogio
+{
+    max-height: 150px;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.link-portifolio-masculino 
+{
+    display: inline-block; // Faz o link ocupar todo o espaço vertical
+    margin-top: 70px;
+    text-decoration: none;
+    color: $Preto_Premium;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+@media (max-width: 1200px) 
+{
+    .container-masculino
+    {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagem-masculino
+    {
+        max-width: 27rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,29 @@
+.container-cards-feminino {
+    display: flex;
+    flex-wrap: wrap;   /* Quera alinha */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-body {
+    padding: 15px;
+}
+.btn
+{
+    padding: 10px;
+}
+
+@media (max-width: 1200px)
+{
+    .container-cards-feminino
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  background: #0F0F0F;
+  padding: 20px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.navbar button {
+  color: #0F0F0F;
+}
+
+.navbar-toggler-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #2E2E2E;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.p-footer {
+  color: #FFFFFF;
+}
+
+header {
+  height: 70vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.588))), url(../../../imgs/bannerMasculino.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.588)), url(../../../imgs/bannerMasculino.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+}
+
+.container-cards-feminino {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* Quera alinha */
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container-cards-feminino {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=Principal.css.map */

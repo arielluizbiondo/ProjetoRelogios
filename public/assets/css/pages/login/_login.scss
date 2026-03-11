@@ -1,0 +1,58 @@
+.login 
+{
+    display: flex;
+    height: 100vh;
+}
+
+.esquedo {
+    flex: 1;
+}
+
+.img-login
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.direito {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login
+{
+    width: 80%;
+    
+}
+.h1-login
+{
+    font-family: $Fonte_destaque;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn
+{
+    width: 100%;
+}
+.a-login
+{
+    
+    text-decoration: none;
+}
+@media (max-width: 1200px)
+{
+    .login 
+    {
+        flex-direction: column;
+    }
+    .img-login
+    {
+        display: none; // A imagem faz que nem a menina confusa, SOMIU!
+    }
+    .direito 
+    {
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,25 @@
+// Cores
+$Branco:                  #FFFFFF; // fundo de páginas e cards
+$Branco_Gelo:             #f5f5f599; // fundo geral suave
+$Preto_Premium:           #0F0F0F; // títulos principais (H1, H2)
+$Cinza_Escuro:            #2E2E2E; // textos principais
+$Cinza_Medio:             #6B6B6B; // textos secundários
+$Cinza_Claro:             #D1D1D1; // bordas e divisores
+$Dourado_Suave:           #C0A16B; // destaques, preços, hover
+$Dourado_Escuro:          #9E8453; // hover de botões / detalhes premium
+
+// Fontes
+
+$Fonte_principal: 'Inter', system-ui, sans-serif;
+$Fonte_destaque:  'Source Sans 3', system-ui, sans-serif;
+$Fonte_cursiva: "Pacifico", cursive;
+
+// Imports externos
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+// Imports internos
+@import "body";
+@import "menu";
+@import "footer";
+@import "cabecalho_principal";
+@import "portifolio";

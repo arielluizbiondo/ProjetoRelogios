@@ -1,0 +1,11 @@
+header
+{
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.588)), url(../../../imgs/bannerFeminino.jpg);
+    background-size: cover; // preencher todo o espaço
+    background-attachment: fixed; // imagem fica parada, mas aida rolando
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+    color: $Branco;
+}

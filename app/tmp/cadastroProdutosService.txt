@@ -1,0 +1,2 @@
+2026-03-10 22:43:15 : O produto: Relogio M -> foi inserido
+2026-03-10 22:43:36 : O produto: Relogio F -> foi inserido

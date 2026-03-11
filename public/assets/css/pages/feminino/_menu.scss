@@ -1,0 +1,24 @@
+.navbar
+{
+    font-family: $Fonte_destaque;
+    background: $Preto_Premium;
+    padding: 20px 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    text-align: center;
+    color: $Branco;
+}
+
+.navbar button
+{
+    color: $Preto_Premium;
+}
+
+.navbar-toggler-icon
+{
+    filter: invert(1);
+    color: $Branco;
+}

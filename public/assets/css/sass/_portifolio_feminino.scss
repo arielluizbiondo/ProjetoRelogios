@@ -1,0 +1,57 @@
+.femino
+{
+    margin-top: 100px;
+}
+.container-feminino
+{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-feminino
+{
+    max-width: 42rem;
+}
+.container-info-feminino
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.container-fotos-relogiosFemininos
+{
+    display: flex;
+}
+.img-relogio
+{
+    max-height: 150px;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.link-portifolio-feminino 
+{
+    display: inline-block; // Faz o link ocupar todo o espaço vertical
+    margin-top: 70px;
+    text-decoration: none;
+    color: $Preto_Premium;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+@media (max-width: 1200px) 
+{
+    .container-feminino
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-info-feminino
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .imagem-feminino
+    {
+        max-width: 27rem;
+    }
+}

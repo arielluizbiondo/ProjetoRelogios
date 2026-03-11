@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  background: #0F0F0F;
+  padding: 20px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.navbar button {
+  color: #0F0F0F;
+}
+/*# sourceMappingURL=Principal.css.map */

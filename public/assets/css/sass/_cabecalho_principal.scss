@@ -1,0 +1,24 @@
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.588)), url(../../imgs/fundo.gif);
+    background-size: cover; // preencher todo o espaço
+    background-attachment: fixed; // imagem fica parada, mas aida rolando
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+    color: $Branco;
+}
+
+.bnt-contato
+{
+    border-radius: 12px;
+    width: 100px;
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    text-decoration: none;
+    color: $Branco;
+    border: 1px solid;
+    border-color: white;
+}

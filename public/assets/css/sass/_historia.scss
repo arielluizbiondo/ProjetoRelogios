@@ -1,0 +1,43 @@
+.container-historia
+{
+    display: flex;
+}
+.historia
+{
+    margin-top: 50px;
+    justify-items: center;
+}
+.img-historia
+{
+    width: 50vh;
+    margin-right: 50px;
+}
+.container-descricao-historia
+{
+    display: flex;
+    width: 40rem;
+    align-items: center;
+    text-align: justify;
+}
+
+@media (max-width: 1200px) 
+{
+    .container-historia
+    {
+        display: contents;
+    }
+    .img-historia
+    {
+        display: flex;
+        margin: 0 auto;
+        width: 40vh;
+    }
+    .container-descricao-historia
+    {
+        display: flex;
+        margin-top: 20px;
+        width: 20rem;
+        align-items: center;
+        text-align: justify;
+    }   
+}
