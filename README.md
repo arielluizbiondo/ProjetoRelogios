@@ -4,7 +4,7 @@ Sistema web desenvolvido para gerenciamento e exibição de relógios de luxo.
 ## <img width="15" alt="image" src="https://github.com/user-attachments/assets/547fa758-96b3-45de-ad2e-980aab3dc266" /> Sobre
 Projeto desenvolvido para atender aos desafios de criação de um portfólio voltado para uma relojoaria, simulando funcionalidades de um sistema de gerenciamento e venda de relógios.
 
-# <img width="18" alt="image" src="https://github.com/user-attachments/assets/a3bfe92f-79a2-4575-8acf-928ee1b9c6ab" /> Tecnologias Utilizadas
+# <img width="18" alt="image" src="https://github.com/user-attachments/assets/a3bfe92f-79a2-4575-8acf-928ee1b9c6ab" />  Ferramentas Utilizadas
 
 ## Front-End
 <img width="40" alt="image" src="https://github.com/user-attachments/assets/ffacc468-9d9f-41eb-afef-09124cbf6843" />
